@@ -1,0 +1,75 @@
+body{
+    background-color: black;
+}
+#box {
+    display: flex;
+    flex-direction: column;
+}
+#head {
+    text-align: center;
+}    
+#main {
+    display: flex;
+    flex-direction: row;
+    }
+#sidebar {
+    width: 100px;
+    flex-grow: 1;
+}
+#content {
+    width: 500px;
+    flex-grow: 8;
+}
+#form {
+    width: 100px;
+    flex-grow: 1;
+}
+.margin-5 {
+    margin-top: 50px;
+      }
+      .magrin-bottom{
+        margin-bottom: 5px;
+      }
+.margin10 {
+    margin: 10px;
+}
+.marginright {
+    margin-right: 5px;
+    }
+.padding {
+    padding: 5px;
+}
+.border{ 
+    border-style:solid;
+    }
+.FontHead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+} 
+.textal {
+    text-align: center;
+    padding-right: 35px;
+   }
+.fontcontent {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    }
+.fontsidebar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.fontform {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.magrinleft {
+    margin-left: 5px;
+}
+/*.position {
+Vet ikke hvordan kan jeg allign submitbutton i sentrum
+}

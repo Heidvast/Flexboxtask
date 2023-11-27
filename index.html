@@ -2,14 +2,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="body">
-        <div class="head"></div>
-        <div class="sidebar"></div>
-        <div class="maincontent"></div>
+    <div id="box" class="margin-5"></div>
+    <div id="head" class="margin-10 magrin-bottom padding border FontHead">
+        <h1>My Portfolio</h1>
     </div>
-    
+    <div id="main">
+        <div id="sidebar" class="margin-10 marginright padding border fontsidebar textal">
+    <ul>  
+        <h5>Landscapes</h5>
+        <h5>Black&White</h5>
+        <h5>Portrets</h5>
+        <h5>Street</h5>
+        <h5>Nature</h5> 
+    </ul>
+        </div>
+        <div id="content" class="margin-10 padding border fontcontent">
+            <h4>Main Content or Photos</h4>
+            <button type="button" onclick="alert('Dessvere kan jeg ikke være hos dere idag. Narvesen trengers hjelpen min.')"> Readme </button>
+        </div>
+        <div id="form" class="margin-10 magrinleft padding border fontform">
+            <form action="/action_page.php">
+                <label for="fname">Account:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="fname">Passord</label>
+                <input type="text" id="fname" name="fname">
+                <input type="submit" value="Submit"class="margin-5 position">
+              </form>
+        </div>
+    </div>
+</div>
 </body>
 </html>
